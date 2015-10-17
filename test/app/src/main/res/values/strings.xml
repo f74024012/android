@@ -8,4 +8,5 @@
     </string-array>
 
     <string name="hello_blank_fragment">Hello!我是Hank!</string>
+    <string name="welcome">歡迎來到小日記世界！</string>
 </resources>
