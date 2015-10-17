@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">test</string>
+    <string name="open">打開Drawer</string>
+    <string name="close">關閉Drawer</string>
+
+    <string name="hello_blank_fragment">Hello!我是Hank!</string>
 </resources>
