@@ -67,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
                 f = new FragmentB();
                 fm.beginTransaction().replace(R.id.content, f).commit();
                 break;
+            case 2:
+                f = new FragmentC();
+                fm.beginTransaction().replace(R.id.content, f).commit();
         }
         lstDrawer.setItemChecked(position, true);
         mDrawerLayout.closeDrawer(lstDrawer);

@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mac.test.FragmentC"
+    android:background="#BBFF66">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/storage"
+            android:id="@+id/btn_store"
+            android:layout_gravity="left|top"
+            android:textSize="25dp"
+            android:textColor="#0000FF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:id="@+id/tv_time"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textColor="#0000FF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:layout_gravity="left|bottom"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="@string/content"
+            android:id="@+id/tv_cont"
+            android:textSize="30dp"
+            android:textColor="#0000FF"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/et_cont"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+
+</FrameLayout>

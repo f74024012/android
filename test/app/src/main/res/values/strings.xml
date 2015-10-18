@@ -5,8 +5,13 @@
     <string-array name="side">
         <item>首頁</item>
         <item>日記</item>
+        <item>編輯日記</item>
     </string-array>
 
     <string name="hello_blank_fragment">Hello!我是Hank!</string>
     <string name="welcome">歡迎來到小日記世界！</string>
+    <string name="content">日記內容</string>
+    <string name="time">時間：</string>
+    <string name="storage">儲存</string>
+    <string name="store_success">儲存成功</string>
 </resources>
